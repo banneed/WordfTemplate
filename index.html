@@ -161,7 +161,7 @@
         PizZipUtils.getBinaryContent(url,callback);
     }
     function generate() {
-        loadFile('https://downloader.disk.yandex.ru/disk/ffdf5b41a7aa4bdf0fad994ae7fe9a0dedb3f8b3bd3e396aa7103857cbe7188d/5eb04e0f/T2_Urbkn7nTDAQDFS_EVCzjw1VDx2wIPbxDnZHewtml-2t29zTVVcYK3LvAImQFnp6mTrcyAD-s-tWhMYWaW2g%3D%3D?uid=172124174&filename=worddoc.docx&disposition=attachment&hash=&limit=0&content_type=application%2Fvnd.openxmlformats-officedocument.wordprocessingml.document&owner_uid=172124174&fsize=13882&hid=d570d428046765f5f279f101c72fb885&media_type=document&tknv=v2&etag=682fbaae1e959caf79d04d72d8e3b37f',function(error,content){
+        loadFile('worddoc.docx',function(error,content){
             if (error) { throw error };
 
             // The error object contains additional information when logged with JSON.stringify (it contains a properties object containing all suberrors).
